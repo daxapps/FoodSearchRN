@@ -12,8 +12,8 @@ const ResultsList = ({ title, results, navigation }) => {
 		<View style={styles.container}>
 			<Text style={styles.title}>{title}</Text>
 			<FlatList
-				horizontal
-				showsHorizontalScrollIndicator={false}
+				// horizontal
+				// showsHorizontalScrollIndicator={false}
 				data={results}
 				keyExtractor={(result) => result.id}
 				renderItem={({ item }) => {
